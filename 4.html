@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+.container{
+    width: 800px;
+    height: 800px;
+    background-color: lightblue;
+    position: relative;
+    margin: 100px auto;
+}
+div{
+    background-color: beige;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    position: absolute;
+}
+.kocka:nth-child(1){
+    left: -50px;
+    top: -50px;
+}
+.kocka:nth-child(2){
+    right: -50px;
+    top: -50px;
+}
+.kocka:nth-child(3){
+    left: -50px;
+    bottom: -50px;
+}
+.kocka:nth-child(4){
+    right: -50px;
+    bottom: -50px;
+}
+</style>
+<body>
+    <div class="container">
+    <div class="kocka"></div>
+    <div class="kocka"></div>
+    <div class="kocka"></div>
+    <div class="kocka"></div>
+
+</div>
+</body>
+</html>
